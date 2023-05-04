@@ -31,5 +31,7 @@ echo -e "[${green}INFO${NC}] Please Restart All Services !"
 sleep 1
 clear
 rm update.sh
-echo "1.1" > /home/ver
+# // script version check
+serverV=$( curl -sS https://raw.githubusercontent.com/vinstechmy/NginxFallbackMultiport/main/UPDATE/version)
+echo "$serverV" > /home/ver
 menu
