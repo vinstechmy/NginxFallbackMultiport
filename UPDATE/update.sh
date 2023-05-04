@@ -22,6 +22,7 @@ cd
 cd /etc/nginx/conf.d
 rm xray.conf
 wget -O xray.conf "https://raw.githubusercontent.com/vinstechmy/NginxFallbackMultiport/main/OTHERS/xray.conf" && chmod +x xray.conf
+cd
 sleep 1
 clear
 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
