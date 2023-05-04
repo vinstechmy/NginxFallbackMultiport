@@ -28,7 +28,7 @@ clear
 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 sleep 1
 echo -e "[${green}INFO${NC}] Please Restart All Services !"
-sleep 1
+sleep 2
 clear
 rm update.sh
 # // script version check
