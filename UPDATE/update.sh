@@ -31,4 +31,5 @@ echo -e "[${green}INFO${NC}] Please Restart All Services !"
 sleep 1
 clear
 rm update.sh
+echo "1.1" /home/ver
 menu
