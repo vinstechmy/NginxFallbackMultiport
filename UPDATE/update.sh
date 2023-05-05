@@ -34,4 +34,7 @@ rm update.sh
 # // script version check
 serverV=$( curl -sS https://raw.githubusercontent.com/vinstechmy/NginxFallbackMultiport/main/UPDATE/version)
 echo "$serverV" > /home/ver
-menu
+echo ""
+echo -e "[ ${green}INFO${NC} ] Successfully Up To Date!"
+echo ""
+read -n1 -r -p "Press any key to continue..." ; menu ;
